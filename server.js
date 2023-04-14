@@ -19,7 +19,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({extended: false}))
 app.use(bodyParser.json());
 app.use(cors({
-  origin: ["http://localhost:3000", "https://mambatask-app.vercel.app"],
+  origin: ["http://localhost:3000", "https://inventory-app-frontend.vercel.app"],
   credentials: true,
 }));
 
